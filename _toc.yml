@@ -1,6 +1,9 @@
 format: jb-book
 root: index.md
-chapters:
-- file: domains/README.md
-- file: methods/README.md
-- file: assets/README.md
+parts:
+- caption: 技术创新
+  chapters:
+  - file: knowledge_engineering/README.md
+- caption: 管理创新
+  chapters:
+  - file: finance/README.md
